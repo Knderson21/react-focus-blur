@@ -53,3 +53,19 @@
     transform: rotate(360deg);
   }
 }
+
+#volume-bar-empty-space {
+  width: 200px;
+  height: 20px;
+  background-color: lightgray;
+  position: relative;
+  margintop: 10px;
+}
+
+#volume-bar {
+  height: 100%;
+  background-color: blue;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
